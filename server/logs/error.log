@@ -1,0 +1,166 @@
+[2026-07-17 16:30:01] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-17 16:30:01] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-17 16:30:09] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-17 16:30:09] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-17 16:34:24] ERROR: Error seeding admin user: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "santosh@gmail.com" }  
+[2026-07-18 20:15:57] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-18 20:15:57] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)  
+[2026-07-18 20:32:05] ERROR: Cast to ObjectId failed for value "2" (type string) at path "productId" for model "Review" - /api/reviews/product/2?sort=latest - GET - ::1  
+[2026-07-18 20:32:05] ERROR: CastError: Cast to ObjectId failed for value "2" (type string) at path "productId" for model "Review"
+    at SchemaObjectId.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\schema\objectId.js:252:11)
+    at SchemaType.applySetters (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1373:12)
+    at SchemaType.castForQuery (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1793:17)
+    at cast (C:\Agriftilizer\server\node_modules\mongoose\lib\cast.js:386:32)
+    at Query.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:5228:12)
+    at Query._castConditions (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2411:10)
+    at model.Query._find (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2438:8)
+    at maybeTracedQueryExec (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:4801:83)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductReviews (file:///C:/Agriftilizer/server/controllers/reviewController.js:83:21)  
+[2026-07-18 20:32:05] ERROR: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "Product" - /api/products/2 - GET - ::1  
+[2026-07-18 20:32:05] ERROR: CastError: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\schema\objectId.js:252:11)
+    at SchemaType.applySetters (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1373:12)
+    at SchemaType.castForQuery (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1793:17)
+    at cast (C:\Agriftilizer\server\node_modules\mongoose\lib\cast.js:386:32)
+    at Query.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:5228:12)
+    at Query._castConditions (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2411:10)
+    at model.Query._findOne (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2758:8)
+    at maybeTracedQueryExec (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:4801:83)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:70:21)  
+[2026-07-18 20:48:18] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-18 20:48:18] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:50:03] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:03] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:50:08] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:08] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:50:15] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:15] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 21:15:45] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:45] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:15:51] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:51] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:15:56] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:56] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:46:04] ERROR: next is not a function - /api/customer/addresses - POST - ::1  
+[2026-07-18 21:46:04] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/customerController.js:116:5)  
+[2026-07-24 19:22:50] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:22:50] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:22:56] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:22:56] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:23:00] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:23:00] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:23:45] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:23:45] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:26:06] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:26:06] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:28:24] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:28:24] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:28:53] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:28:53] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:05] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:29:05] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:26] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-24 19:29:26] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:36] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-24 19:29:36] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:34:01] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:34:01] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:46:38] ERROR: Product not found - /api/products/6a63730c8ce7ce126e6a38c9 - GET - ::1  
+[2026-07-24 19:46:38] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-08-22 13:51:03] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-08-22 13:51:03] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-08-22 13:53:12] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-08-22 13:53:12] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-04 17:59:51] ERROR: Error generating AI response. Please check model availability or API key permissions.  
+[2026-09-04 17:59:51] ERROR: Error in AI test controller:  
+[2026-09-04 18:05:56] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:05:56] ERROR: Error in AI test controller:  
+[2026-09-04 18:10:09] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:10:09] ERROR: Error in AI chat controller:  
+[2026-09-04 18:14:37] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:14:37] ERROR: Error in AI chat controller:  
+[2026-09-04 18:15:19] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:15:20] ERROR: Error in AI chat controller:  
+[2026-09-04 18:43:06] ERROR: Product already in wishlist - /api/wishlist - POST - ::1  
+[2026-09-04 18:43:06] ERROR: Error: Product already in wishlist
+    at addToWishlist (file:///C:/Agriftilizer/server/controllers/wishlistController.js:49:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:21:56] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-09-05 17:21:56] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:22:07] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-09-05 17:22:07] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:22:46] ERROR: Product not found - /api/products/6a63730c8ce7ce126e6a38c9 - GET - ::1  
+[2026-09-05 17:22:46] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  

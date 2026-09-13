@@ -1,0 +1,511 @@
+[2026-07-17 16:28:41] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:28:41] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:28:51] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:30:00] WARN: Failed login attempt for email: santhumedisetti@gmailo.com  
+[2026-07-17 16:30:01] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-17 16:30:01] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-17 16:30:09] WARN: Failed login attempt for email: santhumedisetti@gmailo.com  
+[2026-07-17 16:30:09] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-17 16:30:09] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-17 16:34:20] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:34:20] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:34:20] INFO: Server running in development mode on port 5000  
+[2026-07-17 16:34:24] INFO: Default administrator account created.  
+[2026-07-17 16:34:24] ERROR: Error seeding admin user: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "santosh@gmail.com" }  
+[2026-07-18 19:42:43] INFO: Server running in development mode on port 5000  
+[2026-07-18 19:48:03] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:04:01] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:08:40] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:08:55] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:14:28] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:14:32] INFO: Default admin seeded successfully  
+[2026-07-18 20:14:53] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:14:55] INFO: Default admin seeded successfully  
+[2026-07-18 20:15:57] WARN: Failed login attempt for email: admin@santosh.com  
+[2026-07-18 20:15:57] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-18 20:15:57] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)  
+[2026-07-18 20:16:34] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-18 20:25:17] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:25:20] INFO: Default admin seeded successfully  
+[2026-07-18 20:32:05] ERROR: Cast to ObjectId failed for value "2" (type string) at path "productId" for model "Review" - /api/reviews/product/2?sort=latest - GET - ::1  
+[2026-07-18 20:32:05] ERROR: CastError: Cast to ObjectId failed for value "2" (type string) at path "productId" for model "Review"
+    at SchemaObjectId.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\schema\objectId.js:252:11)
+    at SchemaType.applySetters (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1373:12)
+    at SchemaType.castForQuery (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1793:17)
+    at cast (C:\Agriftilizer\server\node_modules\mongoose\lib\cast.js:386:32)
+    at Query.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:5228:12)
+    at Query._castConditions (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2411:10)
+    at model.Query._find (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2438:8)
+    at maybeTracedQueryExec (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:4801:83)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductReviews (file:///C:/Agriftilizer/server/controllers/reviewController.js:83:21)  
+[2026-07-18 20:32:05] ERROR: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "Product" - /api/products/2 - GET - ::1  
+[2026-07-18 20:32:05] ERROR: CastError: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "Product"
+    at SchemaObjectId.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\schema\objectId.js:252:11)
+    at SchemaType.applySetters (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1373:12)
+    at SchemaType.castForQuery (C:\Agriftilizer\server\node_modules\mongoose\lib\schemaType.js:1793:17)
+    at cast (C:\Agriftilizer\server\node_modules\mongoose\lib\cast.js:386:32)
+    at Query.cast (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:5228:12)
+    at Query._castConditions (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2411:10)
+    at model.Query._findOne (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:2758:8)
+    at maybeTracedQueryExec (C:\Agriftilizer\server\node_modules\mongoose\lib\query.js:4801:83)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:70:21)  
+[2026-07-18 20:33:44] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:33:46] INFO: Default admin seeded successfully  
+[2026-07-18 20:36:52] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:37:00] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:37:06] INFO: Default admin seeded successfully  
+[2026-07-18 20:37:24] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:37:30] INFO: Default admin seeded successfully  
+[2026-07-18 20:37:30] INFO: Database is empty. Initiating automatic seeding...  
+[2026-07-18 20:37:31] INFO: Sample Data (Categories, Brands, Products) seeded successfully!  
+[2026-07-18 20:39:41] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:39:45] INFO: Default admin seeded successfully  
+[2026-07-18 20:47:06] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:47:10] INFO: Default admin seeded successfully  
+[2026-07-18 20:48:18] WARN: Failed login attempt for email: santhumedisetti@gmailo.com  
+[2026-07-18 20:48:18] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-18 20:48:18] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:48:31] INFO: User logged in: santhumedisetti@gmail.com {"userId":"6a59f037cbd43fd7cb181035"} 
+[2026-07-18 20:50:03] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:03] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:50:08] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:08] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:50:15] ERROR: You can only review products that have been delivered to you. - /api/reviews - POST - ::1  
+[2026-07-18 20:50:15] ERROR: Error: You can only review products that have been delivered to you.
+    at createReview (file:///C:/Agriftilizer/server/controllers/reviewController.js:35:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-18 20:55:41] INFO: Server running in development mode on port 5000  
+[2026-07-18 20:55:46] INFO: Default admin seeded successfully  
+[2026-07-18 21:00:48] INFO: Server running in development mode on port 5000  
+[2026-07-18 21:00:52] INFO: Default admin seeded successfully  
+[2026-07-18 21:01:08] INFO: User logged in: santhumedisetti@gmail.com {"userId":"6a59f037cbd43fd7cb181035"} 
+[2026-07-18 21:13:54] INFO: Server running in development mode on port 5000  
+[2026-07-18 21:14:20] INFO: Default admin seeded successfully  
+[2026-07-18 21:15:45] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:45] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:15:51] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:51] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:15:56] ERROR: next is not a function - /api/users/profile/addresses - POST - ::1  
+[2026-07-18 21:15:56] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/userAddressController.js:26:7)  
+[2026-07-18 21:46:04] INFO: User logged in: admin@agrifertilizer.com {"userId":"6a5b914f1b26a060b653cb5f"} 
+[2026-07-18 21:46:04] ERROR: next is not a function - /api/customer/addresses - POST - ::1  
+[2026-07-18 21:46:04] ERROR: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Agriftilizer/server/models/User.js:67:5)
+    at Kareem.execPre (C:\Agriftilizer\server\node_modules\kareem\index.js:59:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:403:5)
+    at async maybeTracedSave (C:\Agriftilizer\server\node_modules\mongoose\lib\model.js:675:7)
+    at async addAddress (file:///C:/Agriftilizer/server/controllers/customerController.js:116:5)  
+[2026-07-18 21:47:50] INFO: Server running in development mode on port 5000  
+[2026-07-18 21:48:05] INFO: Default admin seeded successfully  
+[2026-07-18 21:48:31] INFO: User logged in: admin@agrifertilizer.com {"userId":"6a5b914f1b26a060b653cb5f"} 
+[2026-07-18 21:50:10] INFO: Server running in development mode on port 5000  
+[2026-07-24 18:20:27] INFO: Server running in development mode on port 5000  
+[2026-07-24 18:20:43] INFO: Default admin seeded successfully  
+[2026-07-24 18:28:02] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-24 18:31:55] INFO: User logged in: prabha@gmail.com {"userId":"6a5ba1934e53e618622cba6a"} 
+[2026-07-24 18:45:10] INFO: Server running in development mode on port 5000  
+[2026-07-24 18:45:16] INFO: Default admin seeded successfully  
+[2026-07-24 18:47:09] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-24 18:53:48] INFO: Server running in development mode on port 5000  
+[2026-07-24 18:53:52] INFO: Default admin seeded successfully  
+[2026-07-24 18:54:48] INFO: Order status updated: AGRI-TEST-2 to Confirmed {"orderId":"6a636689dc144cf99be2fe5f","adminId":"6a5b91501b26a060b653cb60","newStatus":"Confirmed"} 
+[2026-07-24 18:55:39] INFO: User logged in: prabha@gmail.com {"userId":"6a5ba1934e53e618622cba6a"} 
+[2026-07-24 19:22:02] INFO: Server running in development mode on port 5000  
+[2026-07-24 19:22:08] INFO: Default admin seeded successfully  
+[2026-07-24 19:22:50] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:22:50] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:22:56] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:22:56] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:23:00] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:23:00] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:23:45] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:23:45] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:26:06] ERROR: Product not found - /api/products/6a636689dc144cf99be2fe5e - GET - ::1  
+[2026-07-24 19:26:06] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:26:53] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-24 19:28:21] INFO: Order status updated: TEST1 to Delivered {"orderId":"6a6366605dcded60757d1c3a","adminId":"6a5b91501b26a060b653cb60","newStatus":"Delivered"} 
+[2026-07-24 19:28:24] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:28:24] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:28:53] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:28:53] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:01] INFO: Order status updated: TEST1 to Packed {"orderId":"6a6366605dcded60757d1c3a","adminId":"6a5b91501b26a060b653cb60","newStatus":"Packed"} 
+[2026-07-24 19:29:05] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:29:05] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:26] WARN: Failed login attempt for email: santhumedisetti@gmailo.com  
+[2026-07-24 19:29:26] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-24 19:29:26] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:36] WARN: Failed login attempt for email: santhumedisetti@gmailo.com  
+[2026-07-24 19:29:36] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-07-24 19:29:36] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:29:47] INFO: User logged in: santhumedisetti@gmail.com {"userId":"6a59f037cbd43fd7cb181035"} 
+[2026-07-24 19:30:45] INFO: Server running in development mode on port 5000  
+[2026-07-24 19:30:48] INFO: Default admin seeded successfully  
+[2026-07-24 19:31:04] INFO: User logged in: lucky@gmail.com {"userId":"6a5a0b6122df8e1c1fca7a66"} 
+[2026-07-24 19:32:57] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-24 19:34:00] INFO: Order status updated: TEST1 to Delivered {"orderId":"6a6366605dcded60757d1c3a","adminId":"6a5b91501b26a060b653cb60","newStatus":"Delivered"} 
+[2026-07-24 19:34:01] ERROR: Cannot read properties of null (reading '_id') - /api/orders/6a6366605dcded60757d1c3a - GET - ::1  
+[2026-07-24 19:34:01] ERROR: TypeError: Cannot read properties of null (reading '_id')
+    at getOrderById (file:///C:/Agriftilizer/server/controllers/orderController.js:120:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:37:25] INFO: User logged in: lucky@gmail.com {"userId":"6a5a0b6122df8e1c1fca7a66"} 
+[2026-07-24 19:37:37] INFO: Server running in development mode on port 5000  
+[2026-07-24 19:37:42] INFO: Default admin seeded successfully  
+[2026-07-24 19:38:25] INFO: Server running in development mode on port 5000  
+[2026-07-24 19:38:28] INFO: Default admin seeded successfully  
+[2026-07-24 19:39:57] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-07-24 19:44:27] INFO: Server running in development mode on port 5000  
+[2026-07-24 19:44:30] INFO: Default admin seeded successfully  
+[2026-07-24 19:44:53] INFO: User logged in: lucky@gmail.com {"userId":"6a5a0b6122df8e1c1fca7a66"} 
+[2026-07-24 19:45:53] INFO: User logged in: santhumedisetti@gmail.com {"userId":"6a59f037cbd43fd7cb181035"} 
+[2026-07-24 19:46:38] ERROR: Product not found - /api/products/6a63730c8ce7ce126e6a38c9 - GET - ::1  
+[2026-07-24 19:46:38] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-07-24 19:47:50] INFO: Order status updated: AGRI-TEST-SANTHU to Packed {"orderId":"6a63730c8ce7ce126e6a38ca","adminId":"6a59f037cbd43fd7cb181035","newStatus":"Packed"} 
+[2026-07-24 19:48:18] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-08-22 13:48:47] INFO: Server running in development mode on port 5000  
+[2026-08-22 13:48:50] INFO: Default admin seeded successfully  
+[2026-08-22 13:51:03] WARN: Failed login attempt for email: nagadurgamedisetti511@gmail.com  
+[2026-08-22 13:51:03] ERROR: Invalid email or password - /api/auth/login - POST - ::1  
+[2026-08-22 13:51:03] ERROR: Error: Invalid email or password
+    at loginUser (file:///C:/Agriftilizer/server/controllers/authController.js:71:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-08-22 13:52:34] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-08-22 13:53:12] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-08-22 13:53:12] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-08-22 13:53:54] INFO: Server running in development mode on port 5000  
+[2026-09-04 16:42:51] INFO: Server running in development mode on port 5000  
+[2026-09-04 16:43:17] INFO: Default admin seeded successfully  
+[2026-09-04 16:43:18] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-09-04 16:59:42] INFO: Server running in development mode on port 5000  
+[2026-09-04 16:59:47] INFO: Default admin seeded successfully  
+[2026-09-04 16:59:48] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:06:35] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:06:38] INFO: Default admin seeded successfully  
+[2026-09-04 17:06:38] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:11:46] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:40:09] INFO: AI Provider: gemini  
+[2026-09-04 17:40:09] INFO: AI Model: configured  
+[2026-09-04 17:40:09] INFO: AI API Key: missing  
+[2026-09-04 17:40:09] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:40:12] INFO: Default admin seeded successfully  
+[2026-09-04 17:40:12] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:42:17] INFO: AI Provider: gemini  
+[2026-09-04 17:42:17] INFO: AI Model: configured  
+[2026-09-04 17:42:17] INFO: AI API Key: missing  
+[2026-09-04 17:42:17] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:42:20] INFO: Default admin seeded successfully  
+[2026-09-04 17:42:21] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:50:24] INFO: AI Provider: gemini  
+[2026-09-04 17:50:24] INFO: AI Model: configured  
+[2026-09-04 17:50:24] INFO: AI API Key: missing  
+[2026-09-04 17:50:24] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:50:27] INFO: Default admin seeded successfully  
+[2026-09-04 17:50:28] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:54:35] INFO: AI Provider: gemini  
+[2026-09-04 17:54:35] INFO: AI Model: configured  
+[2026-09-04 17:54:35] INFO: AI API Key: missing  
+[2026-09-04 17:54:35] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:54:35] INFO: AI Provider: gemini  
+[2026-09-04 17:54:35] INFO: AI Model: configured  
+[2026-09-04 17:54:35] INFO: AI API Key: missing  
+[2026-09-04 17:54:35] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:54:41] INFO: Default admin seeded successfully  
+[2026-09-04 17:54:41] INFO: Default admin seeded successfully  
+[2026-09-04 17:54:41] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:54:41] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:55:03] INFO: AI Provider: gemini  
+[2026-09-04 17:55:03] INFO: AI Model: configured  
+[2026-09-04 17:55:03] INFO: AI API Key: missing  
+[2026-09-04 17:55:03] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:55:03] INFO: AI Provider: gemini  
+[2026-09-04 17:55:03] INFO: AI Model: configured  
+[2026-09-04 17:55:03] INFO: AI API Key: missing  
+[2026-09-04 17:55:03] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:55:10] INFO: Default admin seeded successfully  
+[2026-09-04 17:55:10] INFO: Default admin seeded successfully  
+[2026-09-04 17:55:11] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:55:11] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:55:41] INFO: AI Provider: gemini  
+[2026-09-04 17:55:41] INFO: AI Model: configured  
+[2026-09-04 17:55:41] INFO: AI API Key: missing  
+[2026-09-04 17:55:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:55:41] INFO: AI Provider: gemini  
+[2026-09-04 17:55:41] INFO: AI Model: configured  
+[2026-09-04 17:55:41] INFO: AI API Key: missing  
+[2026-09-04 17:55:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:55:45] INFO: Default admin seeded successfully  
+[2026-09-04 17:55:45] INFO: Default admin seeded successfully  
+[2026-09-04 17:55:45] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:55:45] WARN: AI_API_KEY is not set or is dummy. AI responses will be mocked.  
+[2026-09-04 17:56:08] INFO: AI Provider: gemini  
+[2026-09-04 17:56:08] INFO: AI Model: configured  
+[2026-09-04 17:56:08] INFO: AI API Key: configured  
+[2026-09-04 17:56:08] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:56:15] INFO: Default admin seeded successfully  
+[2026-09-04 17:56:16] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 17:59:37] INFO: AI Provider: gemini  
+[2026-09-04 17:59:37] INFO: AI Model: configured  
+[2026-09-04 17:59:37] INFO: AI API Key: configured  
+[2026-09-04 17:59:37] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:59:37] INFO: AI Provider: gemini  
+[2026-09-04 17:59:37] INFO: AI Model: configured  
+[2026-09-04 17:59:37] INFO: AI API Key: configured  
+[2026-09-04 17:59:37] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:59:37] INFO: AI Provider: gemini  
+[2026-09-04 17:59:37] INFO: AI Model: configured  
+[2026-09-04 17:59:37] INFO: AI API Key: configured  
+[2026-09-04 17:59:37] INFO: Server running in development mode on port 5000  
+[2026-09-04 17:59:42] INFO: Default admin seeded successfully  
+[2026-09-04 17:59:42] INFO: Default admin seeded successfully  
+[2026-09-04 17:59:42] INFO: Default admin seeded successfully  
+[2026-09-04 17:59:43] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 17:59:43] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 17:59:43] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 17:59:51] ERROR: Error generating AI response. Please check model availability or API key permissions.  
+[2026-09-04 17:59:51] ERROR: Error in AI test controller:  
+[2026-09-04 18:02:02] INFO: AI Provider: gemini  
+[2026-09-04 18:02:02] INFO: AI Model: configured  
+[2026-09-04 18:02:02] INFO: AI API Key: configured  
+[2026-09-04 18:02:02] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:02:02] INFO: AI Provider: gemini  
+[2026-09-04 18:02:02] INFO: AI Model: configured  
+[2026-09-04 18:02:02] INFO: AI API Key: configured  
+[2026-09-04 18:02:02] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:02:02] INFO: AI Provider: gemini  
+[2026-09-04 18:02:02] INFO: AI Model: configured  
+[2026-09-04 18:02:02] INFO: AI API Key: configured  
+[2026-09-04 18:02:02] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:02:45] INFO: Default admin seeded successfully  
+[2026-09-04 18:02:46] INFO: Default admin seeded successfully  
+[2026-09-04 18:02:46] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:02:48] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:05:56] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:05:56] ERROR: Error in AI test controller:  
+[2026-09-04 18:07:41] INFO: AI Provider: gemini  
+[2026-09-04 18:07:41] INFO: AI Model: configured  
+[2026-09-04 18:07:41] INFO: AI API Key: configured  
+[2026-09-04 18:07:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:07:41] INFO: AI Provider: gemini  
+[2026-09-04 18:07:41] INFO: AI Model: configured  
+[2026-09-04 18:07:41] INFO: AI API Key: configured  
+[2026-09-04 18:07:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:07:49] INFO: Default admin seeded successfully  
+[2026-09-04 18:07:49] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:07:49] INFO: Default admin seeded successfully  
+[2026-09-04 18:07:50] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:07:56] INFO: AI Provider: gemini  
+[2026-09-04 18:07:56] INFO: AI Model: configured  
+[2026-09-04 18:07:56] INFO: AI API Key: configured  
+[2026-09-04 18:07:56] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:07:56] INFO: AI Provider: gemini  
+[2026-09-04 18:07:56] INFO: AI Model: configured  
+[2026-09-04 18:07:56] INFO: AI API Key: configured  
+[2026-09-04 18:07:56] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:08:02] INFO: Default admin seeded successfully  
+[2026-09-04 18:08:02] INFO: Default admin seeded successfully  
+[2026-09-04 18:08:02] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:08:04] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:09:05] INFO: AI Provider: gemini  
+[2026-09-04 18:09:05] INFO: AI Model: configured  
+[2026-09-04 18:09:05] INFO: AI API Key: configured  
+[2026-09-04 18:09:05] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:09:11] INFO: Default admin seeded successfully  
+[2026-09-04 18:09:12] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:10:09] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:10:09] ERROR: Error in AI chat controller:  
+[2026-09-04 18:14:06] INFO: AI Provider: gemini  
+[2026-09-04 18:14:06] INFO: AI Model: configured  
+[2026-09-04 18:14:06] INFO: AI API Key: configured  
+[2026-09-04 18:14:06] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:14:06] INFO: AI Provider: gemini  
+[2026-09-04 18:14:06] INFO: AI Provider: gemini  
+[2026-09-04 18:14:06] INFO: AI Model: configured  
+[2026-09-04 18:14:06] INFO: AI API Key: configured  
+[2026-09-04 18:14:06] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:14:06] INFO: AI Model: configured  
+[2026-09-04 18:14:06] INFO: AI API Key: configured  
+[2026-09-04 18:14:06] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:14:10] INFO: Default admin seeded successfully  
+[2026-09-04 18:14:10] INFO: Default admin seeded successfully  
+[2026-09-04 18:14:10] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:14:10] INFO: Default admin seeded successfully  
+[2026-09-04 18:14:11] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:14:11] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:14:37] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:14:37] ERROR: Error in AI chat controller:  
+[2026-09-04 18:15:19] ERROR: Error generating AI response. {"error":{"code":404,"message":"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.","status":"NOT_FOUND"}}  
+[2026-09-04 18:15:20] ERROR: Error in AI chat controller:  
+[2026-09-04 18:15:58] INFO: AI Provider: gemini  
+[2026-09-04 18:15:58] INFO: AI Model: configured  
+[2026-09-04 18:15:58] INFO: AI API Key: configured  
+[2026-09-04 18:15:58] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:15:58] INFO: AI Provider: gemini  
+[2026-09-04 18:15:58] INFO: AI Provider: gemini  
+[2026-09-04 18:15:58] INFO: AI Model: configured  
+[2026-09-04 18:15:58] INFO: AI API Key: configured  
+[2026-09-04 18:15:58] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:15:58] INFO: AI Model: configured  
+[2026-09-04 18:15:58] INFO: AI API Key: configured  
+[2026-09-04 18:15:58] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:16:02] INFO: Default admin seeded successfully  
+[2026-09-04 18:16:02] INFO: Default admin seeded successfully  
+[2026-09-04 18:16:02] INFO: Default admin seeded successfully  
+[2026-09-04 18:16:02] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:16:03] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:16:03] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:17:57] INFO: AI Provider: gemini  
+[2026-09-04 18:17:57] INFO: AI Model: configured  
+[2026-09-04 18:17:57] INFO: AI API Key: configured  
+[2026-09-04 18:17:57] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:18:00] INFO: Default admin seeded successfully  
+[2026-09-04 18:18:00] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:26:51] INFO: AI Provider: gemini  
+[2026-09-04 18:26:51] INFO: AI Model: configured  
+[2026-09-04 18:26:51] INFO: AI API Key: configured  
+[2026-09-04 18:26:51] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:26:54] INFO: Default admin seeded successfully  
+[2026-09-04 18:26:54] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:27:48] INFO: User logged in: nandhumedisetti@gmail.com {"userId":"6a637485e74200138fe75b6c"} 
+[2026-09-04 18:39:41] INFO: AI Provider: gemini  
+[2026-09-04 18:39:41] INFO: AI Model: configured  
+[2026-09-04 18:39:41] INFO: AI API Key: configured  
+[2026-09-04 18:39:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:39:41] INFO: AI Provider: gemini  
+[2026-09-04 18:39:41] INFO: AI Model: configured  
+[2026-09-04 18:39:41] INFO: AI API Key: configured  
+[2026-09-04 18:39:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:39:41] INFO: AI Provider: gemini  
+[2026-09-04 18:39:41] INFO: AI Model: configured  
+[2026-09-04 18:39:41] INFO: AI API Key: configured  
+[2026-09-04 18:39:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:39:46] INFO: Default admin seeded successfully  
+[2026-09-04 18:39:47] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:39:47] INFO: Default admin seeded successfully  
+[2026-09-04 18:39:47] INFO: Default admin seeded successfully  
+[2026-09-04 18:39:47] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:39:47] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:40:32] INFO: AI Provider: gemini  
+[2026-09-04 18:40:32] INFO: AI Model: configured  
+[2026-09-04 18:40:32] INFO: AI API Key: configured  
+[2026-09-04 18:40:32] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:40:32] INFO: AI Provider: gemini  
+[2026-09-04 18:40:32] INFO: AI Model: configured  
+[2026-09-04 18:40:32] INFO: AI API Key: configured  
+[2026-09-04 18:40:32] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:40:32] INFO: AI Provider: gemini  
+[2026-09-04 18:40:32] INFO: AI Model: configured  
+[2026-09-04 18:40:32] INFO: AI API Key: configured  
+[2026-09-04 18:40:32] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:40:39] INFO: Default admin seeded successfully  
+[2026-09-04 18:40:39] INFO: Default admin seeded successfully  
+[2026-09-04 18:40:39] INFO: Default admin seeded successfully  
+[2026-09-04 18:40:39] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:40:39] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:40:39] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:42:21] INFO: AI Provider: gemini  
+[2026-09-04 18:42:21] INFO: AI Model: configured  
+[2026-09-04 18:42:21] INFO: AI API Key: configured  
+[2026-09-04 18:42:21] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:42:26] INFO: Default admin seeded successfully  
+[2026-09-04 18:42:27] INFO: Gemini AI Provider initialized successfully  
+[2026-09-04 18:43:06] ERROR: Product already in wishlist - /api/wishlist - POST - ::1  
+[2026-09-04 18:43:06] ERROR: Error: Product already in wishlist
+    at addToWishlist (file:///C:/Agriftilizer/server/controllers/wishlistController.js:49:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-04 18:49:41] INFO: AI Provider: gemini  
+[2026-09-04 18:49:41] INFO: AI Model: configured  
+[2026-09-04 18:49:41] INFO: AI API Key: configured  
+[2026-09-04 18:49:41] INFO: Server running in development mode on port 5000  
+[2026-09-04 18:49:44] INFO: Default admin seeded successfully  
+[2026-09-04 18:49:45] INFO: Gemini AI Provider initialized successfully  
+[2026-09-05 17:19:45] INFO: AI Provider: gemini  
+[2026-09-05 17:19:45] INFO: AI Model: configured  
+[2026-09-05 17:19:45] INFO: AI API Key: configured  
+[2026-09-05 17:19:45] INFO: Server running in development mode on port 5000  
+[2026-09-05 17:19:49] INFO: Default admin seeded successfully  
+[2026-09-05 17:19:50] INFO: Gemini AI Provider initialized successfully  
+[2026-09-05 17:21:22] INFO: User logged in: admin@santosh.com {"userId":"6a5b91501b26a060b653cb60"} 
+[2026-09-05 17:21:52] INFO: Order status updated: AGRI-TEST-SANTHU to Delivered {"orderId":"6a63730c8ce7ce126e6a38ca","adminId":"6a5b91501b26a060b653cb60","newStatus":"Delivered"} 
+[2026-09-05 17:21:56] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-09-05 17:21:56] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:22:07] ERROR: Not authorized to view this invoice - /api/invoice/6a63730c8ce7ce126e6a38ca - GET - ::1  
+[2026-09-05 17:22:07] ERROR: Error: Not authorized to view this invoice
+    at downloadInvoice (file:///C:/Agriftilizer/server/controllers/invoiceController.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:22:46] ERROR: Product not found - /api/products/6a63730c8ce7ce126e6a38c9 - GET - ::1  
+[2026-09-05 17:22:46] ERROR: Error: Product not found
+    at getProductById (file:///C:/Agriftilizer/server/controllers/productController.js:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)  
+[2026-09-05 17:37:02] INFO: AI Provider: gemini  
+[2026-09-05 17:37:02] INFO: AI Model: configured  
+[2026-09-05 17:37:02] INFO: AI API Key: configured  
+[2026-09-05 17:37:02] INFO: Server running in development mode on port 5000  
+[2026-09-05 17:37:07] INFO: Default admin seeded successfully  
+[2026-09-05 17:37:08] INFO: Gemini AI Provider initialized successfully  
+[2026-09-05 17:40:07] INFO: AI Provider: gemini  
+[2026-09-05 17:40:07] INFO: AI Model: configured  
+[2026-09-05 17:40:07] INFO: AI API Key: configured  
+[2026-09-05 17:40:07] INFO: Server running in development mode on port 5000  
+[2026-09-05 17:40:10] INFO: Default admin seeded successfully  
+[2026-09-05 17:40:10] INFO: Gemini AI Provider initialized successfully  
+[2026-09-05 17:43:04] INFO: AI Provider: gemini  
+[2026-09-05 17:43:04] INFO: AI Model: configured  
+[2026-09-05 17:43:04] INFO: AI API Key: configured  
+[2026-09-05 17:43:04] INFO: Server running in development mode on port 5000  
