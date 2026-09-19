@@ -19,7 +19,7 @@ const OrderDetails = () => {
   const handleDownloadInvoice = async () => {
     try {
       setIsDownloading(true);
-      const response = await axios.get(`http://localhost:5000/api/invoice/${order._id}`, {
+      const response = await axios.get(`https://agrifertilizer.onrender.com/api/invoice/${order._id}`, {
         withCredentials: true,
         responseType: 'blob'
       });
