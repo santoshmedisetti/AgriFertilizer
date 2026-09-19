@@ -68,9 +68,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // Security middleware
+// Security middleware
 app.use(helmet());
+
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? 'https://agriftilizer.com' : 'http://localhost:5173',
+  origin: [
+    'http://localhost:5173',
+    'https://agri-fertilizer-topaz.vercel.app'
+  ],
   credentials: true
 }));
 
