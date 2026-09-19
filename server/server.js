@@ -133,7 +133,10 @@ app.use('/api/ai', aiRoutes);
 app.get('/', (req, res) => {
   res.json({ message: 'API is running...' });
 });
-
+// Favicon
+app.get('/favicon.ico', (req, res) => {
+  res.status(204).end();
+});
 // Health Check API
 app.get('/api/health', (req, res) => {
   res.status(200).json({
