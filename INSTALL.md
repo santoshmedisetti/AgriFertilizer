@@ -34,7 +34,7 @@ Follow these steps to set up the Agriftilizer platform locally for development.
    npm install
    
    # Create a .env file
-   echo "VITE_API_URL=http://localhost:5000" > .env
+   echo "VITE_API_URL=https://agrifertilizer.onrender.com" > .env
    
    # Start the Vite development server
    npm run dev
